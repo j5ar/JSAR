@@ -1,0 +1,7 @@
+.hobbies__div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}

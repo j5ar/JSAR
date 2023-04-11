@@ -1,0 +1,11 @@
+.sobre__mi__hobbie__nombre{
+ font-size: 18px;
+}
+@media screen and (max-width: 640px) {
+
+    .sobre__mi__hobbie__nombre{
+        margin-bottom: 20px;
+        color: #774c9a;
+       }
+
+}

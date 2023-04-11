@@ -1,0 +1,35 @@
+.sobre__mi__hobbie__imagen{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+
+.sobre__mi__hobbie__imagen--anime{
+    
+    background-image: url("../../../assets/hobbies/cine.png");
+}
+
+.sobre__mi__hobbie__imagen--leer{
+    
+    background-image: url("../../../assets/hobbies/leer.png");
+}
+
+.sobre__mi__hobbie__imagen--jugar{
+    
+    background-image: url("../../../assets/hobbies/jugar.png");
+}
+.sobre__mi__hobbie__imagen--cocinar{
+   
+    background-image: url("../../../assets/hobbies/cocinar.png");
+}
+.sobre__mi__hobbie__imagen--caminar{
+    
+    background-image: url("../../../assets/hobbies/caminar.png");
+}
+
+
+

@@ -1,0 +1,60 @@
+.contactame{
+    margin-left: auto;
+    margin-right: auto;
+    height: 650px;
+    
+    
+   
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario__contactame{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: left;
+}
+.input-label{
+    color: black;
+    font-size: 16px;
+    
+    margin-bottom: 15px;
+}
+
+.input-message-error{
+    display: none;
+}
+
+.input__caja{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid #774c9a;
+    color: black;
+    outline: none;
+}
+
+.input__caja::placeholder{
+    color: #c0c0c0	;
+}
+.input__caja--btn{
+    background-color: #774c9a;
+    border: 0 solid #774c9a;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input__caja--btn:hover{
+    background-color: #6e329e;
+    font-size: 17px;
+}
+
+

@@ -1,0 +1,102 @@
+body {
+	
+	background: #fff;
+	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+	padding: 0;
+}
+
+
+.snow{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: #774c9a	;
+	border-radius: 50%;
+	filter: drop-shadow(0 0 10px #774c9a);
+
+}
+@keyframes fall{
+	0%{
+		top: -100px;
+	}
+	100%{
+		top: 480vh;
+	}
+}
+
+.snow:nth-child(1){
+	opacity: 0.8;
+	transform: translate(50vw, -10px);
+	animation: fall-1 25s linear infinite;
+}
+
+@keyframes fall-1 {
+	100%{
+		transform: translate(60vw, 35vw);
+	}
+	to{
+		transform: translate(40vw, 480vh);
+	}
+}
+
+.snow:nth-child(2){
+	opacity: 0.5;
+	transform: translate(20vw, -10px) scale(0.5);
+	animation: fall-2  20s linear infinite;
+}
+
+@keyframes fall-2 {
+	35%{
+		transform: translate(35vw, 45vw) scale(0.5);
+	}
+	to{
+		transform: translate(30vw, 480vh)scale(0.5);
+	}
+}
+
+.snow:nth-child(3){
+	opacity: 0.3;
+	transform: translate(20vw, -10px) scale(0.2);
+	animation: all-3  20s linear infinite;
+}
+
+@keyframes fall-3 {
+	35%{
+		transform: translate(60vw, 65vw) scale(0.2);
+	}
+	to{
+		transform: translate(65vw, 480vh)scale(0.2);
+	}
+}
+
+.snow:nth-child(4){
+	opacity: 1;
+	transform: translate(30vw, 40px) scale(0.7);
+	animation: fall-4  20s linear infinite;
+}
+
+@keyframes fall-4 {
+	35%{
+		transform: translate(60vw, 65vw) scale(0.7);
+	}
+	to{
+		transform: translate(45vw, 480vh)scale(0.7);
+	}
+}
+
+.snow:nth-child(5){
+	opacity: 1;
+	transform: translate(10vw, 20px) scale(0.7);
+	animation: fall-5  15s linear infinite;
+}
+
+@keyframes fall-5 {
+	35%{
+		transform: translate(30vw, 65vw) scale(0.7);
+	}
+	to{
+		transform: translate(5vw, 100vw)scale(0.7);
+	}
+}
+

@@ -1,0 +1,14 @@
+
+.mi__presentacion__imagen{    
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background-image:  url(../../assets/mi-foto/mi-foto-jsar.jpg);  
+    
+    
+    
+}

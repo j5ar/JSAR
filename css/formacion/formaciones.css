@@ -1,0 +1,22 @@
+.formaciones{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 640px) {
+    .formaciones{
+        display: block;
+        justify-content: center;
+        
+    }
+
+}
+@media screen and (min-width: 1000px) {
+    .formaciones{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+}

@@ -1,0 +1,18 @@
+.formacion__imagen{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.formacion__imagen--univalle{
+    background-image: url(../../../assets/formacion/70_Rojo-removebg-preview.png);
+
+}
+
+.formacion__imagen--alura{
+    background-image: url(../../../assets/formacion/logo-one.png);
+}
+

@@ -1,0 +1,27 @@
+.proyecto__img{
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.proyecto__img--barberia--alura{
+ background-image: url(../../../assets/proyectos/barberia-Alura.PNG);
+}
+
+.proyecto__img--fruta--fruto{
+ background-image: url(../../../assets/proyectos/Fruto-y-fruta.PNG);
+}
+
+.proyecto__img--apeperia{
+ background-image: url(../../../assets/proyectos/apeperia.PNG);
+}
+
+.proyecto__img--mini--alura{
+    background-image: url(../../../assets/proyectos/mini-alura.PNG);
+   }
+   

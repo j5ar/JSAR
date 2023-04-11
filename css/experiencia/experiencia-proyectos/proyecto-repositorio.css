@@ -1,0 +1,13 @@
+.proyecto__repositorio{
+    padding: 12px 11px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+    background-color: #774c9a;
+    color: #fff;
+}
+.proyecto__repositorio:hover{
+    font-size: 17px;
+}
+

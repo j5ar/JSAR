@@ -1,0 +1,67 @@
+
+.menu__link{
+	padding: 10px;
+	margin-bottom: 10px;
+	color: black;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	font-size: 20px;
+	
+}
+.menu__link:hover{
+	font-size: 22px;
+	background-color: #774c9a;
+	color: #fff;
+	font-weight: bold;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	
+}
+@media screen and (max-width: 1024px) {
+
+	.menu__link{
+		
+		color: #000000;
+		font-family: 'Roboto Mono', monospace;
+		text-decoration: none;
+		transition: .5s;
+		display: block;
+		font-size: 15px;
+		
+	}
+	.menu__link:hover{
+		font-size: 18px;
+		background-color: #774c9a;
+		color: #fff;
+		font-weight: bold;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		
+	}
+}
+@media screen and (max-width: 650px) {
+
+	.menu__link{
+		padding: 10px;
+		margin-bottom: 10px;
+		color: #fff;
+		font-family: 'Roboto Mono', monospace;
+		text-decoration: none;
+		transition: .5s;
+		display: block;
+		font-size: 20px;
+		
+	}
+	.menu__link:hover{
+		font-size: 22px;
+		background-color: #774c9a;
+		color: black;
+		font-weight: bold;
+		border: 2px solid black;
+		border-radius: 5px;
+		
+	}
+}
+

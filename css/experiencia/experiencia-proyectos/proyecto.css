@@ -1,0 +1,29 @@
+.proyecto{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 640px) {
+    .proyecto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        }
+
+}
+@media screen and (min-width: 1000) {
+    .proyecto{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+@media screen and (min-width: 1400) {
+    .proyecto{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

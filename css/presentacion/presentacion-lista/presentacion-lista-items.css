@@ -1,0 +1,15 @@
+.mi__presentacion__lista__items {
+    display: flex;
+   
+    list-style: none;
+}
+
+@media screen and (max-width: 640px) {
+
+    .mi__presentacion__lista__items {
+        display: block;
+       
+        
+    }
+
+}

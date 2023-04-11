@@ -1,0 +1,14 @@
+.skills__section{
+    width: 500px;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+
+    .skills__section{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+}

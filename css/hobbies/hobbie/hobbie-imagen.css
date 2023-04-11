@@ -1,0 +1,31 @@
+.hobbie__imagen{       
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hobbie__imagen--anime{
+    background-image: url('../../../assets/icons-skills/5352-html5_102567.png');
+
+}
+
+.hobbie__imagen--juegos{
+    background-image: url('../../../assets/icons-skills/5352-html5_102567.png');
+
+}
+
+.hobbie__imagen--caminar{
+    background-image: url('../../../assets/icons-skills/5352-html5_102567.png');
+}
+.hobbie__imagen--cine{
+    background-image: url('../../../assets/icons-skills/5352-html5_102567.png');
+}
+
+.hobbie__imagen--cocinar{
+    background-image: url('../../../assets/icons-skills/5352-html5_102567.png');
+
+}
+

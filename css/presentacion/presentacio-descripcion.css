@@ -1,0 +1,14 @@
+.presentacion__titulo__descripcion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+@media screen and (max-width: 640px) {
+
+    .presentacion__titulo__descripcion{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+
+}

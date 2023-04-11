@@ -1,0 +1,23 @@
+.skill__imagen{       
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    
+}
+.skill__imagen--css3{
+    background-image: url('../../assets/icons-skills/CSS3.png');
+
+}
+
+.skill__imagen--html{
+    background-image: url('../../assets/icons-skills/file_type_html_icon_130541\ \(1\).png');
+    
+}
+
+.skill__imagen--javascript{
+    background-image: url('../../assets/icons-skills/javascript_icon_130900.png');
+
+}

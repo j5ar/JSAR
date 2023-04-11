@@ -1,0 +1,28 @@
+.presentacion__link{
+    padding: 10px;
+	margin-bottom: 10px;
+	color: #9799A6;
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	
+}
+.presentacion__link:hover{
+    font-size: 110%;
+	color: #333333;
+	font-weight: bold;
+	
+}
+
+@media screen and (max-width: 640px) {
+
+	.presentacion__link{
+		
+		margin-bottom: 0px;
+		
+		
+	}
+
+}
+

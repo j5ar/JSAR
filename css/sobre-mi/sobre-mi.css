@@ -1,0 +1,78 @@
+.sobre__mi{
+    align-items: center;
+    
+    display: flex;
+    
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.sobre__mi__texto{
+width: 550px;
+text-align: center;
+
+}
+
+   @media screen and (max-width: 640px) {
+    .sobre__mi{
+        align-items: center;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    
+    }
+    .sobre__mi__texto{
+        width: auto;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 1000px) {
+    .sobre__mi{
+        align-items: center;
+        
+        display: flex;
+        
+        justify-content: space-around;
+        padding-left: 5rem;
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    
+    }
+    .sobre__mi__texto{
+        width: auto;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 1400px) {
+    .sobre__mi{
+        align-items: center;
+        
+        display: flex;
+        
+        justify-content: space-around;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    
+    }
+    
+    .sobre__mi__texto{
+    width: 550px;
+    text-align: center;
+    
+    }
+
+}

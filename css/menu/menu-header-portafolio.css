@@ -1,0 +1,14 @@
+.menu__header__portafolio {
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 640px) {
+   
+    .menu__header__portafolio {
+        display: block;
+        margin: auto;
+    }
+}
+    
+

@@ -1,0 +1,24 @@
+.imagen__sobre__mi__astronauta{    
+       
+    height: 500px;
+    width: 500px;
+    
+
+    
+}
+
+.imagen__sobre__mi__texto{
+    align-items: end;
+}
+
+@media screen and (max-width: 640px) {
+
+    .imagen__sobre__mi__astronauta{    
+       
+    display: none;
+    
+        
+    }
+    
+
+}

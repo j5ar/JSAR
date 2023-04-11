@@ -1,0 +1,17 @@
+.footer{
+    text-align: center;
+    background-color: #774c9a;
+    
+}
+
+.footer__div{
+    height: 100px;
+}
+.desarrollado{
+    padding-top: 20px;
+    font-size: 15px;
+    color: #fff;
+}
+.desarrollado__año{
+    color: #fff;
+}

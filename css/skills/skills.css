@@ -1,0 +1,56 @@
+
+@media screen and (max-width: 640px) {
+
+    .skills{
+        padding: 2rem;
+        text-align: center;
+        align-items: center;
+        
+        display: block;
+        
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+
+}
+@media screen and (min-width: 1000px) {
+
+    .skills{
+        padding: 2rem;
+        text-align: center;
+        align-items: center;
+        
+        display: flex;
+        
+        justify-content: center;
+        padding-left: 6rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .skills{
+        padding: 5rem;
+        text-align: center;
+        align-items: center;
+        
+        display: flex;
+        
+        justify-content: space-around;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+
+}
